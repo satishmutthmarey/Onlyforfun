@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Photo Gallery</title>
+    <style>
+        /* Base page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* The Grid Container */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Individual Card Wrapper */
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        /* Responsive image behavior */
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Keeps image proportions intact without stretching */
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        /* Hover effects */
+        .gallery-item:hover {
+            transform: translateY(-5px); /* Card lifts up slightly */
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1); /* Image zooms in inside the card bounding box */
+        }
+
+        /* Caption text styling */
+        .caption {
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            font-weight: bold;
+        }
+        .gallery video {
+            display: block;
+            width: 300px;
+            margin:20px auto;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+    <p><center> Aru ko photo xa vanne malai phatau nu hola</center></p>
+<p><center> Don't be serious !!Gusy </center></p>
+    <!-- Gallery Wrap -->
+    <div class="gallery-container">
+        
+        <!-- Image 1 -->
+        <div class="gallery-item">
+            <img src="apil.jpg" alt="Middle finger">
+            <div class="caption">Fuck youhh!!</div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="gallery-item">
+            <img src="eyes.jpg" alt="fish">
+            <div class="caption"> Look in my Eyes!!</div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="gallery-item">
+            <img src="saroj.jpg" alt="Mammoth">
+            <div class="caption">Depression</div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="gallery-item">
+            <img src="two.jpg" alt="Bauna and tooth pick">
+            <div class="caption">Dwarf VS Stickman!! Nigga refree</div>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="gallery-item">
+            <img src="bibek.jpg" alt="fish">
+            <div class="caption">Anime boy</div>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="gallery-item">
+            <img src="sarojmbl.jpg" alt=" mbl">
+            <div class="caption">RIP MObile huhu</div>
+        </div>
+<!-- Image 7 -->
+        <div class="gallery-item">
+            <img src="aarpan.jpg" alt="hehe">
+            <div class="caption">HeHe  sulululu</div>
+        </div>
+        <!-- Image 8 -->
+        <div class="gallery-item">
+            <img src="bull.jpg" alt="rago">
+            <div class="caption">Alternative pic of Mr junior channel AKA Rago</div>
+        </div>
+        <!-- Image 9 -->
+        <div class="gallery-item">
+            <img src="sleepy.jpg" alt="solid body">
+            <div class="caption">uss ko yaad aayo</div>
+        </div> 
+        <!-- Image 10 -->
+        <div class="gallery-item">
+            <img src="selfie.jpg" alt="solid body">
+            <div class="caption"> Camera man $</div>
+        </div> 
+        <!-- Image 11 -->
+        <div class="gallery-item">
+            <img src="arpan.jpg" alt="solid body">
+            <div class="caption"> HEHE**</div>
+        </div> 
+        <!-- Image 12 -->
+        <div class="gallery-item">
+            <img src="arpan2.jpg" alt="solid body">
+            <div class="caption"> ta ho aaile vatlas ne khattey!..........sala.....</div>
+        </div> 
+        <!-- Image 13 -->
+        <div class="gallery-item">
+            <img src="sleepy.jpg" alt="solid body">
+            <div class="caption">uss ko yaad aayo</div>
+        </div> 
+ <!-- Image 14 -->
+        <div class="gallery-item">
+            <img src="sut.jpg" alt="solid body">
+            <div class="caption"> sutna dey nww...hyaaa.lyng na han na.......</div>
+        </div> 
+         <!-- Image 15  -->
+        <div class="gallery-item">
+            <img src="pandit.jpg" alt="solid body">
+            <div class="caption"> k garya mula baun</div>
+        </div> 
+         <!-- Image 16 -->
+        <div class="gallery-item">
+            <img src="nonchlant.jpg" alt="solid body">
+            <div class="caption"> NOnchlant AkA attitude king/boy of LockDown3</div>
+        </div> 
+
+
+
+
+
+
+
+
+         <br> <br> <br> <br><br> <br> <div class="gallery">
+            <video  height="350px"     controls>
+                <source src="topey.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="gallery">
+            <video  height="350px" controls>
+                <source src="Sarojvdo.mp4" type="video/mp4">
+            </video>
+        </div>
+
+          <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="Sarojlol.mp4" type="video/mp4">
+            </video>
+
+        </div>  
+        <div class="gallery">
+            <video  height="350px"controls>
+                <source src="dog.mp4" type="video/mp4">
+            </video>
+             <div class="caption"> Dangerous Breed</div>
+        </div>  
+        <div class="gallery">
+            <video  height="350px"controls>
+                <source src="rip.mp4" type="video/mp4">
+            </video>
+            <div class="caption"> HuHu chak ma cancer vayo </div>
+        </div>
+          <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="reaction.mp4" type="video/mp4">
+            </video>
+            <div class="caption"> 2 Mental in one frame</div>
+             
+        </div>    
+        <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="horror.mp4" type="video/mp4">
+            </video>
+            <div class="caption"> HOrrOr</div>
+             
+        </div>    
+        <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="puff.mp4" type="video/mp4">
+            </video>
+             <div class="caption"> ho ki kya ho*%  </div>
+        </div>   
+         <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="rapist.mp4" type="video/mp4">
+            </video>
+             
+        </div>  
+         <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="toilet.mp4" type="video/mp4">
+            </video>
+             
+        </div>  
+        <div class="gallery">
+            <video  height="350px"  controls>
+                <source src="girls.mp4" type="video/mp4">
+            </video>
+             
+        </div>  
+    </div>
+
+</body>
+</html>
